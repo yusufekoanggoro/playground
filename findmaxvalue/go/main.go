@@ -9,7 +9,7 @@ type User struct {
 
 func main() {
 	// with array
-	arr := []int{1, 89, 100, 82}
+	arr := [4]int{1, 89, 100, 82}
 
 	largest := arr[0]
 

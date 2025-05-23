@@ -15,19 +15,19 @@ function main(){
     const users = [
         {
             name: 'udin 1',
-            age: 23
+            age: 23,
         },
         {
             name: 'udin 2',
-            age: 22
+            age: 22,
         },
         {
             name: 'udin 3',
-            age: 50
+            age: 50,
         },
         {
             name: 'udin 4',
-            age: 46
+            age: 46,
         }
     ];
 
