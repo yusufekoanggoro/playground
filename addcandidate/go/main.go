@@ -11,12 +11,18 @@ type Candidate struct {
 var registeredNames []string
 
 func isNameRegistered(name string) bool {
-	for _, registeredName := range registeredNames {
-		if registeredName == name {
+	for i := 0; i < len(registeredNames); i++ {
+		if registeredNames[i] == name {
 			return true
 		}
 	}
 	return false
+	// for _, registeredName := range registeredNames {
+	// 	if registeredName == name {
+	// 		return true
+	// 	}
+	// }
+	// return false
 }
 
 // TODO: ADD REGISTER LOGIC
